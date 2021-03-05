@@ -1,0 +1,23 @@
+{
+  "name": "base-front-end-setup",
+  "version": "1.0.0",
+  "description": "base project setup for front end project, support browser-sync,scss,js live reload and compilation",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch": "gulp serve"
+  },
+  "keywords": [
+    "browser-sync",
+    "front-end"
+  ],
+  "author": "oboy",
+  "license": "ISC",
+  "dependencies": {
+    "browser-sync": "^2.26.14",
+    "gulp": "^4.0.2"
+  },
+  "devDependencies": {
+    "gulp-sass": "^4.1.0"
+  }
+}
